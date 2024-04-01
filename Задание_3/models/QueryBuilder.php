@@ -10,7 +10,7 @@ class QueryBuilder
 
     public function __construct()
     {
-        $this->pdo = new PDO("mysql:host=localhost; dbname=u67348", "u67348", "6461361",
+        $this->pdo = new PDO("mysql:host=localhost; dbname=u", "u", "",
             [PDO::ATTR_PERSISTENT => true, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
     }
 
