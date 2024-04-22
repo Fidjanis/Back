@@ -175,7 +175,7 @@ else
   print('Валидация прошла успешно!');
   // Сохранение в базу данных.
 
-  $db = new PDO('mysql:host=localhost;dbname=u67348', 'u67348', '6461361',
+  $db = new PDO('mysql:host=localhost;dbname=', '', '',
     [PDO::ATTR_PERSISTENT => true, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]); // Заменить test на имя БД, совпадает с логином uXXXXX
 
 // Подготовленный запрос. Не именованные метки.
